@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    background-color: whitesmoke;
+    height: 8vh;
+    padding: 0 2vw;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    background-color: lightgray;
+    height: 92vh;
+    justify-content: center;
+    align-items: center;
+}
